@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -23,29 +24,75 @@
                     <div class="hero__card">
                         <img src="./img/time.svg" alt="time">
                         <h5>Plan Trip Dates</h5>
-                        <p>orem ipsum dolor sit amet, 
+                        <p>orem ipsum dolor sit amet,
                             consectetur adipiscing elit. </p>
                         <button>LEARN MORE</button>
                     </div>
                     <div class="hero__card">
                         <img src="./img/Money.svg" alt="time">
-                        <h5>Pay For Your Flights</h5>
-                        <p>orem ipsum dolor sit amet, 
+                        <h5>Pay 123For Your Flights</h5>
+                        <p>orem ipsum dolor sit amet,
                             consectetur adipiscing elit. </p>
                         <button>LEARN MORE</button>
                     </div>
                     <div class="hero__card">
                         <img src="Plane and Money.svg" alt="time">
                         <h5>Plan Your Finances</h5>
-                        <p>orem ipsum dolor sit amet, 
+                        <p>orem ipsum dolor sit amet,
                             consectetur adipiscing elit. </p>
                         <button>LEARN MORE</button>
                     </div>
                 </div>
             </div>
-
+        </section>
+        <section class="view">
+            <div class="container">
+                <div class="view__text">
+                    <div class="view__left">
+                        <p>PHOTO GALLERY</p>
+                        <h2>View the wonderful places you can visit</h2>
+                    </div>
+                    <div class="view__right">
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Pellentesque pulvinar lorem justo,
+                            Lorem ipsum dolor sit amet, consectetur </p>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./img/Rectangle 12.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./Rectangle 13.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/Rectangle 12.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./Rectangle 13.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/Rectangle 12.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./Rectangle 13.png" alt="">
+                      </div>
+                    
+                    </div>
+                  </div>
+            </div>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 2,
+          spaceBetween: 30,
+          loop:true,
+          autoplay:true,
+        });
+      </script>
 </body>
 
 </html>

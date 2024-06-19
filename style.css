@@ -91,3 +91,37 @@
    margin-top: 80px; 
 }
     
+.view__text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.view__left{
+    width: 515px;
+}
+.view__right p{
+    font-weight: 400;
+    font-size:16px ;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    width: 360px;
+}
+.view__left p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #baa6ed;
+    margin: 80px 0 36px;
+}
+
+.view__left h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 104%;
+    letter-spacing: 0.02em;
+    width: 450px;
+}
+
